@@ -1,0 +1,54 @@
+{
+  "name": "styled-d3",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.tsx",
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "@types/react": "^16",
+    "@types/react-dom": "^16",
+    "@vx/gradient": "latest",
+    "@vx/group": "latest",
+    "@vx/mock-data": "latest",
+    "@vx/pattern": "latest",
+    "@vx/responsive": "latest",
+    "@vx/scale": "latest",
+    "@vx/stats": "latest",
+    "@vx/tooltip": "latest",
+    "react-scripts-ts": "3.1.0",
+    "typescript": "^4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3"
+  },
+  "keywords": [
+    "visualization",
+    "d3",
+    "react",
+    "vx",
+    "stats",
+    "boxplot",
+    "violin plot"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
